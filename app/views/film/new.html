@@ -1,0 +1,26 @@
+h1 class="text-center">Nueva Pelicula</h1>
+
+<div class="text-center center-form">   <%= form_for Film.new do |f| %>
+    <div class="form-group">
+      <%= f.label :title, "Titulo" %>
+        <%= f.text_field :title, class: "form-control" %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :year, "Año" %>
+        <%= f.text_field :year, class: "form-control" %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :rating, "Puntaje (0-5)" %>
+       <%= f.number_field :rating, class: "form-control" %>
+      </div>
+
+     <div class="form-group">
+       <%= f.label :description, "Descripcion" %>
+        <%= f.text_area :description, class: "form-control" %>
+      </div>
+
+      <%= f.submit "Crear Pelicula", class: "btn btn-success" %>
+   <% end %>
+</div>
