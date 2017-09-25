@@ -1,3 +1,5 @@
+<table class="table table-bordered">
+<thead>
 <tr>
        <th>Nombre</th>
        <th>Año</th>
@@ -25,6 +27,7 @@
         <%= link_to "Eliminar", film_path(film.id), class: "btn btn-danger", method: :delete %>
        </tr>
      <% end %>
+     </thead>
    </tbody>
  </table>
 
