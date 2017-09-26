@@ -20,25 +20,13 @@
       <%= f.text_area :description, class: "form-control" %>
     </div>
 
+    <div class="form-group">
+      <%= f.label :post.rb %>
+      <%= f.file_field :post.rb %>
+    </div>
+<div>
     <%= f.submit title_button, class: "btn btn-success" %>
-  <% end %>
+  
 </div>
 
-<%= form_for post do |f| %>
-  <div>
-    <%= f.label :title %>
-    <%= f.text_field :title %>
-  </div>
  
-  <div>
-    <%= f.label :body %>
-    <%= f.text_area :body %>
-  </div>
- 
-  <div>
-    <%= f.label :image %>
-    <%= f.file_field :image %>
-  </div>
- 
-  <%= f.submit %>
-<% end %>
