@@ -169,7 +169,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap (~> 4.0.0.alpha6)
   byebug
-  carrierwave
+  carrierwave (~> 1.1)
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
