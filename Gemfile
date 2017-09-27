@@ -45,3 +45,4 @@ end
   gem 'spring'
   gem 'pry'
  gem 'carrierwave', '~> 1.1'
+ gem 'devise'
